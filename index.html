@@ -1,143 +1,177 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 		<title>PeyluenKao's Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css">
 	</head>
-	<body class="is-preload">
 
-		<!-- Navigation -->
-			<nav id="nav">
-				<ul class="container">
-					<li><a href="#about">About</a></li>
-					<li><a href="#skill">Skill</a></li>
-					<li><a href="#project">Project</a></li>
-					<li><a href="#contact">Contact</a></li>
-				</ul>
-			</nav>
+	<body class="is-preload">
+    
+		<!-- Navigation bar -->
+		<nav class="navbar">
+			<div class="navcontainer">
+				<a class="navbar-brand" href="index.html">PeyluenKao</a>
+		
+				<button class="navbar-toggler" type="button">
+					☰
+				</button>
+		
+				<div class="navbar-menu">
+					<ul class="navbar-nav">
+						<li><a href="#about">About</a></li>
+						<li><a href="#skill">Skills</a></li>
+						<li><a href="#project">Projects</a></li>
+						<!-- <li><a href="#contact">Contact</a></li> -->
+						<li><a href="mailto:kaopeyluen@gmail.com" ><span class="label">
+							<img src="images/Gmail.png" alt="Gmail Logo" style="width: 30px; height: auto;"></span></a></li>
+						<li><a href="https://github.com/" ><span class="label">
+							<img src="images/Github.png" alt="GitHub Logo" style="width: 30px; height: auto;"></span></a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
 
 		<!-- About Section -->
-			<article id="about" class="wrapper style1">
-				<div class="container">
-					<div class="row aln-center">
-							<header>
-								<h1>Hi, This is</h1>
-								<h1><strong>Peyluen Kao</strong></h1>
-							</header>
-							<h3><strong>	I'm an Information and Computer Engineering student with a passion for web development,
-									 UI/UX design, and game design. I enjoy combining creativity with technology to build meaningful 
-									 solutions and am always eager to learn and improve.
-								</strong>
-							</h3>
+		<section class="about" id="about">
+			<div class="container">
+				<div class="row align-items-center">
+
+					<div class="col-md-6 text-center text-md-start">
+						<div class="about-text">
+							<small>Welcome to <span>my portfolio website!</span></small>
+							<h1>Hi, This is <span class="highlight">Peyluen</span></h1>
+							<p>	I'm an Information and Computer Engineering student with a passion for
+								<span class="highlight">web development</span>,
+								<span class="highlight">UI/UX design</span>, and
+								<span class="highlight">game design</span>. I enjoy combining creativity 
+								with technology to build meaningful solutions and am always eager to learn and improve.
+							</p>
+						</div>
+					</div>
+
+					<div class="col-md-6 text-center">
+						<div class="about-image">
+							<img src="images/Librolocate.png" class="img-fluid" alt="Profile Image">
 						</div>
 					</div>
 				</div>
-			</article>
+			</div>
+		</section>
 
 		<!-- Skills Section -->
-		<article id="skill" class="wrapper style1">
-			<div class="container">
-				<header>
-					<h2>Skills</h2>
-				</header>
-					<div class="row aln-center">
-						<div class="col-4 col-6-medium col-12-small">
-							<section class="box style1">
-								<h3>Technical</h3>
-								<p>Python, HTML, CSS, Java, JavaScript</p>
-							</section>
+		<section id="skill" class="skills">
+			<div class="skillcontainer">
+				<h2 class="section-title">Skills</h2>
+				<!-- Technical Skills -->
+				<div class="skills-category">
+					<h3>Technical Skills</h3>
+					<div class="skills-icons">
+						<div class="skill-item">
+							<!--<img src="images/Python.png" alt="Python" class="skill-icon">-->
+							<p>Python</p>
 						</div>
-
-						<div class="col-4 col-6-medium col-12-small">
-							<section class="box style1">
-								<h3>Tool</h3>
-								<p>Adobe XD, Figma, Microsoft Office, Canva, Adobe Photoshop, Microsoft Excel</p>
-							</section>
+						<div class="skill-item">
+							<!--<img src="images/icons/html.png" alt="HTML5" class="skill-icon">-->
+							<p>HTML5</p>
 						</div>
-						
-						<div class="col-4 col-6-medium col-12-small">
-							<section class="box style1">
-								<h3>Languague</h3>
-								<p>English, Chinese, Thai</p>
-							</section>
+						<div class="skill-item">
+							<!--<img src="images/icons/css.png" alt="CSS3" class="skill-icon">-->
+							<p>CSS3</p>
+						</div>
+						<div class="skill-item">
+							<!--<img src="images/icons/javascript.png" alt="JavaScript" class="skill-icon">-->
+							<p>JavaScript</p>
+						</div>
+						<div class="skill-item">
+							<!--<img src="images/icons/python.png" alt="Python" class="skill-icon">-->
+							<p>Java</p>
 						</div>
 					</div>
+				</div>
+			
+				<!-- Design Skills -->
+				<div class="skills-category">
+					<h3>Design Skills</h3>
+					<div class="skills-icons">
+						<div class="skill-item">
+							<!--<img src="images/icons/figma.png" alt="Figma" class="skill-icon">-->
+							<p>Figma</p>
+						</div>
+						<div class="skill-item">
+							<!--<img src="images/icons/Canva.png" alt="Canva" class="skill-icon">-->
+							<p>Canva</p>
+						</div>
+						<div class="skill-item">
+							<!--<img src="images/icons/Photoshop.png" alt="Photoshop" class="skill-icon">-->
+							<p>Photoshop</p>
+						</div>
+						<div class="skill-item">
+							<!--<img src="images/icons/Illustrator.png" alt="Illustrator" class="skill-icon">-->
+							<p>Illustrator</p>
+						</div>
+						<div class="skill-item">
+							<!--<img src="images/icons/InDesign.png" alt="InDesign" class="skill-icon">-->
+							<p>InDesign</p>
+						</div>
+						<div class="skill-item">
+							<!--<img src="images/icons/AdobeXD.png" alt="AdobeXD" class="skill-icon">-->
+							<p>AdobeXD</p>
+						</div>
+					</div>
+				</div>
 			</div>
-		</article>		
+		</section>
+		  
 
-		<!-- Project Section-->
-			<article id="project" class="wrapper style1">
-				<div class="container">
-					<header>
-						<h2>Projects</h2>
-					</header>
-					<div class="row">
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="Librolocate.png" class="image featured"><img src="images/Librolocate.png" alt="Reservation App Project" /></a>
-								<h3>Reservation App Project</h3>
-								<p>	A mobile app designed to streamline the reservation process for university 
-									co-working spaces, making it easier for students to find and book available study areas.
-								</p>
-							</article>
+		<!-- Projects Section -->
+		<section id="project" class="projects">
+			<div class="projectcontainer">			
+				<h2 class="section-title">Projects</h2>	
+				<div class="projects-grid">
+					<!-- Project 1 -->
+					<div class="project">
+						<img src="images/Librolocate.png" alt="Reservation App" class="project-image">
+						<div class="project-info">
+							<h3 class="project-title">Reservation App Project</h3>
+							<p class="project-description">
+								A mobile app designed to streamline the reservation process for university 
+								co-working spaces, making it easier for students to find and book available study areas.
+							</p>
+							<a href="https://github.com/your-project-link" class="project-link" target="_blank"></a>
 						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="https://github.com/Escape-Plan-NA/user_interface" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
-								<h3><a href="http://www.ise.eng.chula.ac.th/news/detail?id=1714&gid=1-008-002-005">Web Game Development Project</h3></a>
-								<p>	A client-server game that lets two players connect, strategize, and compete for the win. 
-									One computer hosts the server and a game client, while the other is a standalone game 
-									client that connects to the server. Each player must move their character wisely within 
-									the time limit and aim to outsmart their opponent.</p>
-							</article>
+					</div>
+
+					<!-- Project 2 -->
+					<div class="project">
+						<img src="images/Game.png" alt="Web Game Development Project" class="project-image">
+						<div class="project-info">
+							<h3 class="project-title">Web Game Development Project</h3>
+							<p class="project-description">
+								A client-server game that lets two players connect, strategize, and compete for the win. 
+								One computer hosts the server and a game client, while the other is a standalone game 
+								client that connects to the server. Each player must move their character wisely within 
+								the time limit and aim to outsmart their opponent.							
+							</p>
+							<a href="https://yourwebsite.com" class="project-link" target="_blank"></a>
 						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="http://www.ise.eng.chula.ac.th/news/detail?id=1714&gid=1-008-002-005" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-								<h3><a href="http://www.ise.eng.chula.ac.th/news/detail?id=1714&gid=1-008-002-005">Bi-weekly Newsletter</h3></a>
-								<p>	A biweekly digital newsletter created to engage the university community by transforming 
-									written content into visually appealing designs that capture attention and enhance readability.
-								</p>
-							</article>
+					</div>
+
+					<!-- Project 3 -->
+					<div class="project">
+						<img src="images/News.png" alt="Bi-weekly Newsletter Project" class="project-image">
+						<div class="project-info">
+							<h3 class="project-title">Bi-weekly Newsletter Project</h3>
+							<p class="project-description">
+								A biweekly digital newsletter created to engage the university community by transforming 
+								written content into visually appealing designs that capture attention and enhance readability.							</p>
+							<a href="https://github.com/your-project-link" class="project-link" target="_blank"></a>
 						</div>
 					</div>
 				</div>
-			</article>
-
-		<!-- Contact Section-->
-			<article id="contact" class="wrapper style4">
-				<div class="container medium">
-					<header>
-						<h2>Contact Details</h2>
-						<p>I'd love to hear from you! Whether you have a question, 
-							a project idea, or just want to say hi, feel free to reach out.
-						</p>
-					</header>
-						<div class="col-12">
-							<ul class="social">
-								<li><a href="mailto:kaopeyluen@gmail.com" ><span class="label">Gmail</span></a></li>
-								<li><a href="https://github.com/" ><span class="label">Github</span></a></li>
-							</ul>
-							<hr />
-						</div>
-					</div>
-					<footer>
-						<ul id="copyright">
-							<li>&copy; Untitled. All rights reserved.</li><li>Design: PeyluenKao</a></li>
-						</ul>
-					</footer>
-				</div>
-			</article>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+			</div>
+		</section>
 
 	</body>
 </html>
