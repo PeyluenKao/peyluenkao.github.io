@@ -42,14 +42,10 @@
     </nav>
 
     <section id="profile">
-      <div class="section_pic-container">
-        <img src="images/china.png" alt="Profile picture" />
-      </div>
-
-      <div class="section_text">
-        <p class="section_text_p1">Hello, I'm</p>
-        <h1 class="title">Pey-luen Kao</h1>
-        <p class="section_text_p2">Frontend Developer</p>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Pey</h1>
+        <p class="section__text__p2">Frontend Developer</p>
 
         <div class="btn-container">
           <button
@@ -80,64 +76,84 @@
           />
         </div>
       </div>
-    </section>
-
-    <section id="about">
-      <p class="section__text__p1">Get To Know More</p>
-      <h1 class="title">About Me</h1>
 
       <div class="section-container">
         <div class="section__pic-container">
           <img
-            src="./assets/about-pic.png"
+            src="images/Profile.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="about max-width: 1200px; margin: 0 auto; padding: 4rem 2rem;">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="about-grid">     
+        <div class="section__pic-container">
+          <img
+            src="images/Profile.jpg"
             alt="Profile picture"
             class="about-pic"
           />
         </div>
 
         <div class="about-details-container">
-          <div class="details-container">
-            <img
-              src="./assets/education.png"
-              alt="Education icon"
-              class="icon"
-            />
-            <h3>Education</h3>
-            <p>B.Sc. Bachelors Degree<br />M.Sc. Masters Degree</p>
+          <div class="about-containers">
+              <div class="details-container">
+                <img
+                  src="images/Python.png"
+                  alt="Education icon"
+                  class="icon"
+                />
+                <h3>Education</h3>
+                <p>B.Sc. Bachelors Degree<br />M.Sc. Masters Degree</p>
+              </div>
           </div>
-        </div>
-
-        <div class="text-container">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-            reprehenderit et laborum, rem, dolore eum quod voluptate
-            exercitationem nobis, nihil esse debitis maxime facere minus sint
-            delectus velit in eos quo officiis explicabo deleniti dignissimos.
-            Eligendi illum libero dolor cum laboriosam corrupti quidem,
-            reiciendis ea magnam? Nulla, impedit fuga!
-          </p>
+          <div class="about-containers">
+              <div class="details-container">
+                <img
+                  src="images/Python.png"
+                  alt="Education icon"
+                  class="icon"
+                />
+                <h3>Education</h3>
+                <p>B.Sc. Bachelors Degree<br />M.Sc. Masters Degree</p>
+              </div>
+          </div>
+          <div class="text-container">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                quis reprehenderit et laborum, rem, dolore eum quod voluptate
+                exercitationem nobis, nihil esse debitis maxime facere minus
+                sint delectus velit in eos quo officiis explicabo deleniti
+                dignissimos. Eligendi illum libero dolor cum laboriosam corrupti
+                quidem, reiciendis ea magnam? Nulla, impedit fuga!
+              </p>
+          </div>
         </div>
       </div>
       <img
-        src="./assets/arrow.png"
+        src="images/Python.png"
         alt="Arrow icon"
         class="icon arrow"
         onclick="location.href='./#skills'"
       />
+      </div>
     </section>
 
     <section id="skills">
-      <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Skills</h1>
-
-      <div class="skills-details-container">
-        <div class="about-containers">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Skills</h1>
+        <div class="skills-details-container">
           <div class="details-container">
             <h2 class="skills-sub-title">Frontend Development</h2>
             <div class="article-container">
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                  src="images/Python.png"
                   alt="Experience icon"
                   class="icon"
                 />
@@ -149,7 +165,7 @@
 
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                  src="images/Python.png"
                   alt="Experience icon"
                   class="icon"
                 />
@@ -161,7 +177,7 @@
 
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                  src="images/Python.png"
                   alt="Experience icon"
                   class="icon"
                 />
@@ -173,7 +189,7 @@
 
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                  src="images/Python.png"
                   alt="Experience icon"
                   class="icon"
                 />
@@ -185,7 +201,7 @@
 
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                  src="images/Python.png"
                   alt="Experience icon"
                   class="icon"
                 />
@@ -197,7 +213,7 @@
 
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                  src="images/Python.png"
                   alt="Experience icon"
                   class="icon"
                 />
@@ -214,7 +230,7 @@
             <div class="article-container">
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                  src="images/Python.png"
                   alt="Experience icon"
                   class="icon"
                 />
@@ -226,7 +242,7 @@
 
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                  src="images/Python.png"
                   alt="Experience icon"
                   class="icon"
                 />
@@ -238,48 +254,7 @@
 
               <article>
                 <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>HTML</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-            </div>
-          </div>
-
-          <div class="details-container">
-            <h2 class="skills-sub-title">Frontend Development</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>HTML</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>HTML</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-
-              <article>
-                <img
-                  src="./assets/checkmark.png"
+                  src="images/Python.png"
                   alt="Experience icon"
                   class="icon"
                 />
@@ -291,7 +266,6 @@
             </div>
           </div>
         </div>
-      </div>
     </section>
 
     <section id="projects">
@@ -299,87 +273,68 @@
       <h1 class="title">Projects</h1>
       <div class="skills-details-container">
         <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-1.png"
-                alt="Project 1"
-                class="project-img"
-              />
+          <div class="project-card">
+            <img
+              src="./assets/project1.png"
+              alt="Gospel Admin System"
+              class="project-image"
+            />
+            <h3>Gospel Admin System</h3>
+            <div class="project-tags">
+              <span class="tag php">PHP</span>
+              <span class="tag mysql">MySQL</span>
+              <span class="tag html">HTML/CSS</span>
             </div>
-
-            <h2 class="skills-sub-title project-title">Project One</h2>
-
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                GitHub
-              </button>
-
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                GitHub
-              </button>
+            <p class="project-description">
+              Comprehensive church management system with member tracking, event
+              scheduling, financial management and attendance monitoring.
+            </p>
+            <div class="project-links">
+              <a href="#" class="project-link">🔗 Website</a>
             </div>
           </div>
 
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-1.png"
-                alt="Project 1"
-                class="project-img"
-              />
+          <div class="project-card">
+            <img
+              src="./assets/project2.png"
+              alt="M-Pesa PHP SDK"
+              class="project-image"
+            />
+            <h3>M-Pesa PHP SDK</h3>
+            <div class="project-tags">
+              <span class="tag php">PHP</span>
+              <span class="tag api">REST API</span>
+              <span class="tag composer">Composer</span>
             </div>
-
-            <h2 class="skills-sub-title project-title">Project One</h2>
-
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                GitHub
-              </button>
-
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                GitHub
-              </button>
+            <p class="project-description">
+              Step-by-step guide to integrating M-Pesa to your website using a
+              simple SDK.
+            </p>
+            <div class="project-links">
+              <a href="#" class="project-link">🔗 View Source</a>
+              <a href="#" class="project-link">📄 Documentation</a>
             </div>
           </div>
 
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-1.png"
-                alt="Project 1"
-                class="project-img"
-              />
+          <div class="project-card">
+            <img
+              src="./assets/project3.png"
+              alt="MobileSasa SDK"
+              class="project-image"
+            />
+            <h3>MobileSasa SDK</h3>
+            <div class="project-tags">
+              <span class="tag php">PHP</span>
+              <span class="tag api">REST API</span>
+              <span class="tag composer">Composer</span>
             </div>
-
-            <h2 class="skills-sub-title project-title">Project One</h2>
-
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                GitHub
-              </button>
-
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                GitHub
-              </button>
+            <p class="project-description">
+              A communication toolkit SDK with REST API support and easy
+              Composer installation.
+            </p>
+            <div class="project-links">
+              <a href="#" class="project-link">🔗 View Source</a>
+              <a href="#" class="project-link">📄 Documentation</a>
             </div>
           </div>
         </div>
@@ -387,32 +342,62 @@
     </section>
 
     <section id="contact">
-      <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
 
-      <div class="contact-info-upper-container">
-        <div class="contact-info-container">
-          <img
-            src="./assets/email.png"
-            alt="Email icon"
-            class="icon contact-icon"
-          />
-          <p>
-            <a href="mailto:exampleemail@gmail.com">Example@gmail.com</a>
-          </p>
+      <form
+        action="mailto:your@email.com"
+        method="POST"
+        enctype="text/plain"
+        class="contact-form"
+      >
+        <div class="input-row">
+          <div class="input-group">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="Name"
+              placeholder="Your name"
+              required
+            />
+          </div>
+
+          <div class="input-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="Email"
+              placeholder="your@email.com"
+              required
+            />
+          </div>
         </div>
 
-        <div class="contact-info-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="LinkedIn icon"
-            class="icon contact-icon"
+        <div class="input-group">
+          <label for="subject">Subject</label>
+          <input
+            type="text"
+            id="subject"
+            name="Subject"
+            placeholder="Project discussion"
+            required
           />
-          <p>
-            <a href="https://www.linkedin.com">LinkedIn</a>
-          </p>
         </div>
-      </div>
+
+        <div class="input-group">
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            name="Message"
+            placeholder="Tell me about your project..."
+            rows="6"
+            required
+          ></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
     </section>
 
     <script src="assets/js/main.js"></script>
