@@ -2,404 +2,226 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, user-scalable=no"
-    />
-    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Peyluen</title>
+    <!-- #CSS -->
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/mediaqueries.css" />
+    <!-- #box icon -->
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <!--remox icon-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
-
   <body>
-    <nav id="desktop-nav">
-      <div class="logo">Peyluen</div>
-      <div>
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+    <header>
+      <a href="#" class="logo">Developer <span>X.</span></a>
+
+      <div class="bx bx-menu" id="menu-icon"></div>
+
+      <ul class="navlist">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="top-btnn">
+        <a href="#" class="h-btn">Contact me</a>
       </div>
-    </nav>
+    </header>
 
-    <nav id="hamburger-nav">
-      <div class="logo">Peyluen</div>
-      <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div class="menu-links">
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-        </div>
-      </div>
-    </nav>
+    <section class="hero" id="home">
+      <div class="main-content">
+        <h4>Hi, There</h4>
+        <h1>I'm <span>Tahmid Ahmed</span></h1>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam
+          laudantium repudiandae aliquid?
+        </p>
 
-    <section id="profile">
-      <div class="section__text">
-        <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">Pey</h1>
-        <p class="section__text__p2">Frontend Developer</p>
-
-        <div class="btn-container">
-          <button
-            class="btn btn-color-2"
-            onclick="window.open('./assets/resume-example.pdf')"
-          >
-            Download CV
-          </button>
-
-          <button class="btn btn-color-1" onclick="location.href='./#contact'">
-            Contact Info
-          </button>
+        <div class="social">
+          <a href="#"><i class="ri-facebook-fill"></i></a>
+          <a href="#"><i class="ri-instagram-fill"></i></a>
+          <a href="#"><i class="ri-twitter-fill"></i></a>
+          <a href="#"><i class="ri-youtube-fill"></i></a>
         </div>
 
-        <div id="socials-container">
-          <img
-            src="images/Gmail.png"
-            alt="My LinkedIn profile"
-            class="icon"
-            onclick="location.href='https://linkedin.com/'"
-          />
-
-          <img
-            src="images/Github.png"
-            alt="My Github profile"
-            class="icon"
-            onclick="location.href='https://github.com/'"
-          />
-        </div>
-      </div>
-
-      <div class="section-container">
-        <div class="section__pic-container">
-          <img
-            src="images/Profile.jpg"
-            alt="Profile picture"
-            class="about-pic"
-          />
+        <div class="main-btn">
+          <a href="#" class="btn">Hire me</a>
+          <a href="#" class="btn btn2">Download CV</a>
         </div>
       </div>
     </section>
 
-    <section id="about max-width: 1200px; margin: 0 auto; padding: 4rem 2rem;">
-      <p class="section__text__p1">Get To Know More</p>
-      <h1 class="title">About Me</h1>
-      <div class="about-grid">     
-        <div class="section__pic-container">
-          <img
-            src="images/Profile.jpg"
-            alt="Profile picture"
-            class="about-pic"
-          />
-        </div>
-
-        <div class="about-details-container">
-          <div class="about-containers">
-              <div class="details-container">
-                <img
-                  src="images/Python.png"
-                  alt="Education icon"
-                  class="icon"
-                />
-                <h3>Education</h3>
-                <p>B.Sc. Bachelors Degree<br />M.Sc. Masters Degree</p>
-              </div>
-          </div>
-          <div class="about-containers">
-              <div class="details-container">
-                <img
-                  src="images/Python.png"
-                  alt="Education icon"
-                  class="icon"
-                />
-                <h3>Education</h3>
-                <p>B.Sc. Bachelors Degree<br />M.Sc. Masters Degree</p>
-              </div>
-          </div>
-          <div class="text-container">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                quis reprehenderit et laborum, rem, dolore eum quod voluptate
-                exercitationem nobis, nihil esse debitis maxime facere minus
-                sint delectus velit in eos quo officiis explicabo deleniti
-                dignissimos. Eligendi illum libero dolor cum laboriosam corrupti
-                quidem, reiciendis ea magnam? Nulla, impedit fuga!
-              </p>
-          </div>
-        </div>
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="./img/about.jpg" />
       </div>
-      <img
-        src="images/Python.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#skills'"
-      />
-      </div>
-    </section>
+      <div class="about-text">
+        <h2>I am Product <span>Designer</span><br />& Web Developer</h2>
 
-    <section id="skills">
-        <p class="section__text__p1">Explore My</p>
-        <h1 class="title">Skills</h1>
-        <div class="skills-details-container">
-          <div class="details-container">
-            <h2 class="skills-sub-title">Frontend Development</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  src="images/Python.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>HTML</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-
-              <article>
-                <img
-                  src="images/Python.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>HTML</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-
-              <article>
-                <img
-                  src="images/Python.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>HTML</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-
-              <article>
-                <img
-                  src="images/Python.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>HTML</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-
-              <article>
-                <img
-                  src="images/Python.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>HTML</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-
-              <article>
-                <img
-                  src="images/Python.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>HTML</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-            </div>
-          </div>
-
-          <div class="details-container">
-            <h2 class="skills-sub-title">Frontend Development</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  src="images/Python.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>HTML</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-
-              <article>
-                <img
-                  src="images/Python.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>HTML</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-
-              <article>
-                <img
-                  src="images/Python.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>HTML</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-            </div>
-          </div>
-        </div>
-    </section>
-
-    <section id="projects">
-      <p class="section__text__p1">Browse My Recent</p>
-      <h1 class="title">Projects</h1>
-      <div class="skills-details-container">
-        <div class="about-containers">
-          <div class="project-card">
-            <img
-              src="./assets/project1.png"
-              alt="Gospel Admin System"
-              class="project-image"
-            />
-            <h3>Gospel Admin System</h3>
-            <div class="project-tags">
-              <span class="tag php">PHP</span>
-              <span class="tag mysql">MySQL</span>
-              <span class="tag html">HTML/CSS</span>
-            </div>
-            <p class="project-description">
-              Comprehensive church management system with member tracking, event
-              scheduling, financial management and attendance monitoring.
-            </p>
-            <div class="project-links">
-              <a href="#" class="project-link">🔗 Website</a>
-            </div>
-          </div>
-
-          <div class="project-card">
-            <img
-              src="./assets/project2.png"
-              alt="M-Pesa PHP SDK"
-              class="project-image"
-            />
-            <h3>M-Pesa PHP SDK</h3>
-            <div class="project-tags">
-              <span class="tag php">PHP</span>
-              <span class="tag api">REST API</span>
-              <span class="tag composer">Composer</span>
-            </div>
-            <p class="project-description">
-              Step-by-step guide to integrating M-Pesa to your website using a
-              simple SDK.
-            </p>
-            <div class="project-links">
-              <a href="#" class="project-link">🔗 View Source</a>
-              <a href="#" class="project-link">📄 Documentation</a>
-            </div>
-          </div>
-
-          <div class="project-card">
-            <img
-              src="./assets/project3.png"
-              alt="MobileSasa SDK"
-              class="project-image"
-            />
-            <h3>MobileSasa SDK</h3>
-            <div class="project-tags">
-              <span class="tag php">PHP</span>
-              <span class="tag api">REST API</span>
-              <span class="tag composer">Composer</span>
-            </div>
-            <p class="project-description">
-              A communication toolkit SDK with REST API support and easy
-              Composer installation.
-            </p>
-            <div class="project-links">
-              <a href="#" class="project-link">🔗 View Source</a>
-              <a href="#" class="project-link">📄 Documentation</a>
-            </div>
-          </div>
+        <div class="exp-area">
+          <p class="exp">
+            Experience
+            <span>12 Years</span>
+          </p>
+          <p class="exp">
+            Experience
+            <span>12 Years</span>
+          </p>
+          <p class="exp">
+            Speciality:
+            <span>Product Designer, Developer</span>
+          </p>
+          <p class="exp">
+            Address:
+            <span>Punjab, Pakistan</span>
+          </p>
         </div>
       </div>
     </section>
 
-    <section id="contact">
-      <h1 class="title">Contact Me</h1>
-
-      <form
-        action="mailto:your@email.com"
-        method="POST"
-        enctype="text/plain"
-        class="contact-form"
-      >
-        <div class="input-row">
-          <div class="input-group">
-            <label for="name">Name</label>
-            <input
-              type="text"
-              id="name"
-              name="Name"
-              placeholder="Your name"
-              required
-            />
-          </div>
-
-          <div class="input-group">
-            <label for="email">Email</label>
-            <input
-              type="email"
-              id="email"
-              name="Email"
-              placeholder="your@email.com"
-              required
-            />
-          </div>
+    <section class="services" id="services">
+      <div class="center-text">
+        <h2>My <span>Services</span></h2>
+      </div>
+      <div class="services-content">
+        <div class="box">
+          <img src="./img/s-1.svg" alt="" />
+          <h3>UI/UX Design</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde ipsam
+            quam est ad placeat? Minus!
+          </p>
+          <a href="#"
+            >Download Now
+            <i class="ri-arrow-right-line"></i>
+          </a>
+          <h3></h3>
         </div>
 
-        <div class="input-group">
-          <label for="subject">Subject</label>
-          <input
-            type="text"
-            id="subject"
-            name="Subject"
-            placeholder="Project discussion"
-            required
-          />
+        <div class="box">
+          <img src="./img/s-1.svg" alt="" />
+          <h3>Front-End</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde ipsam
+            quam est ad placeat? Minus!
+          </p>
+          <a href="#"
+            >Download Now
+            <i class="ri-arrow-right-line"></i>
+          </a>
+          <h3></h3>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <div class="center-text">
+        <h2>My <span>Portfolio</span></h2>
+      </div>
+
+      <div class="portfolio-content">
+        <div class="row">
+          <img src="./img/port-1.jpg" alt="" />
+          <div class="main-row">
+            <div class="row-text">
+              <h5>Website Design</h5>
+            </div>
+            <div class="row-icon">
+              <i class="ri-github-fill"></i>
+            </div>
+          </div>
+          <h4>Website Development For Dark X</h4>
         </div>
 
-        <div class="input-group">
-          <label for="message">Message</label>
+        <div class="row">
+          <img src=".github/workflows/Librolocate.png" alt="" />
+          <div class="main-row">
+            <div class="row-text">
+              <h5>Website Design</h5>
+            </div>
+            <div class="row-icon">
+              <i class="ri-github-fill"></i>
+            </div>
+          </div>
+          <h4>Website Development For Dark X</h4>
+        </div>
+
+        <div class="row">
+          <img src="./img/port-1.jpg" alt="" />
+          <div class="main-row">
+            <div class="row-text">
+              <h5>Website Design</h5>
+            </div>
+            <div class="row-icon">
+              <i class="ri-github-fill"></i>
+            </div>
+          </div>
+          <h4>Website Development For Dark X</h4>
+        </div>
+
+        <div class="row">
+          <img src="./img/port-1.jpg" alt="" />
+          <div class="main-row">
+            <div class="row-text">
+              <h5>Website Design</h5>
+            </div>
+            <div class="row-icon">
+              <i class="ri-github-fill"></i>
+            </div>
+          </div>
+          <h4>Website Development For Dark X</h4>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="center-text">
+        <h2>Contact<span>me</span></h2>
+      </div>
+      <div class="contact-form">
+        <form action="">
+          <input type="text" placeholder="Your name" required />
+          <input type="email" placeholder="Email Address" required />
           <textarea
-            id="message"
-            name="Message"
-            placeholder="Tell me about your project..."
-            rows="6"
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Write Message Here."
             required
           ></textarea>
-        </div>
-
-        <button type="submit" class="submit-btn">Send Message</button>
-      </form>
+          <input type="submit" value="Send Message" class="send-btn" />
+        </form>
+      </div>
     </section>
 
+    <div class="footer">
+      <div class="copyright">
+        <p>2023 Tahmid Ahmed, All Right Reserved.</p>
+      </div>
+      <a href="#home" class="scroll-top">
+        <i class="ri-arrow-up-s-fill"></i>
+      </a>
+    </div>
+
     <script src="assets/js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 300,
+        duration: 1400,
+      });
+    </script>
   </body>
 </html>
